@@ -12,6 +12,10 @@
       {
         devShells.default = pkgs.mkShell {
           buildInputs = with pkgs; [
+            colima
+            docker
+            docker-compose
+            docker-credential-helpers
             terraform
           ];
 
