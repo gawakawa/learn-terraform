@@ -8,9 +8,9 @@ terraform {
 }
 
 provider "google" {
-  project = "terraform-456709"
-  region  = "asia-northeast1"
-  zone    = "asia-northeast1-a"
+  project = var.project
+  region  = var.region
+  zone    = var.zone
 }
 
 resource "google_compute_network" "vpc_network" {
