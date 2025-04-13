@@ -16,6 +16,7 @@
             docker
             docker-compose
             docker-credential-helpers
+            google-cloud-sdk
             terraform
           ];
 
